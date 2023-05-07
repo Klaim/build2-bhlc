@@ -1,0 +1,15 @@
+: 1
+name: bhlc
+version: 0.1.0-a.0.z
+language: c++
+project: build2-high-level-configs
+summary: bhlc C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/build2-high-level-configs
+email: mjklaim@gmail.com
+#build-error-email: mjklaim@gmail.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+
+depends: libbhlc == $

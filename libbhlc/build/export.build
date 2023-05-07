@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libbhlc/
+}
+
+export $out_root/libbhlc/$import.target
