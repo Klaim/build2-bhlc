@@ -34,7 +34,5 @@ Scafholdings:
 - [ ] Consider using `tl-generator` to allow using coroutines to simplify the code.
 - [ ] Use this to generate configs for itself as tests and actual usage, in particular for release and sanitizers.
 
-----
-DONE:
-----
+
 
