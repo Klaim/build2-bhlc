@@ -11,4 +11,7 @@ email: mjklaim@gmail.com
 #build-error-email: mjklaim@gmail.com
 depends: * build2 >= 0.15.0
 depends: * bpkg >= 0.15.0
-#depends: libhello ^1.0.0
+
+depends: tl-expected
+depends: tl-optional
+depends: doctest

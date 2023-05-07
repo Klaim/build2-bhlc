@@ -1,9 +1,7 @@
-: basics
+: basic: msvc
 :
-$* 'World' >'Hello, World!'
+$* msvc >>EOO
 
-: missing-name
-:
-$* 2>>EOE != 0
-error: missing name
-EOE
+High-Level Configuration:
+libbhlc: not implemented yet!
+EOO
