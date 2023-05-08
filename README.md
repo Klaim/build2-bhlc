@@ -4,17 +4,20 @@
 Syntax being considered:
 ```
 
+bhlc <toolchain>,<other options groups>,...
+-> generates a configuration file
+
 bhlc msvc,debug
 -> msvc-debug.config (contains basic recommended flags like warning levels high but not to the max, and debug flags)
 
 bhlc toolchain=msvc=15.9,debug
--> msvc-debug.config (exactly the same as before but more verbose)
+-> msvc15.9-debug.config (exactly the same as before but more verbose)
 
 bhlc msvc,debug --
 -> (exactly the same as before but output to the )
 
 bhlc msvc=15.9,release,warnings=all
--> msvc-release.config (contains basic recommended flags, uses specific toolchain version, rise warning level to the max)
+-> msvc15.9-release.config (contains basic recommended flags, uses specific toolchain version, rise warning level to the max)
 
 bhlc msvc,{debug release}
 -> msvc-debug.config msvc-release.config
