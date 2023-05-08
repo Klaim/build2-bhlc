@@ -63,7 +63,7 @@ bhlc msvc,arch={x86 x64},{debug release}
 bhlc msvc,{debug release} --outdir configs/
 -> configs/msvc-debug.config configs/msvc-release.config
 
-bhlc create msvc,{debug release}
+bhlc msvc,{debug release} --create
 -> msvc-debug/ msvc-release/ (generate build configuration dirs using `bpkg create`)
 
 ```
